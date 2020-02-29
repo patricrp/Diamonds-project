@@ -1,0 +1,18 @@
+import pandas as pd
+import numpy as np
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+
+def algoModel(algorithms, X, y):
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    
+    for k,v in algorithms:
+        score = v.score(X_test,y_test)
+        rmse = np.sqrt(mean_squared_error(y_test, k.predict(X_test)))
+        y_pred = k.predict(X_test)
+        
+        print(k)
+        print('Score is ', score)
+        print('RMSE is ', rmse)
+
+
+def createCSV()
