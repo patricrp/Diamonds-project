@@ -1,6 +1,10 @@
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+from sklearn.metrics import *
+from sklearn.model_selection import train_test_split
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 def algoModel(algorithms, X, y):
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -13,6 +17,6 @@ def algoModel(algorithms, X, y):
         print(k)
         print('Score is ', score)
         print('RMSE is ', rmse)
-
-
-def createCSV()
+        sns.scatterplot(y_pred, y_test)
+        plt.xlabel("Predicted price")
+        plt.ylabel("Real price")
