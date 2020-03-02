@@ -20,7 +20,7 @@ Create different machine learning models to study Machine Learning Supervised Re
 
 6. Create new Jupyter Notebook Machine Learning - Training Models where I created a dictionary with all best models. 
 
-7. Create a function to train each model on the dictionary and visualize it.
+7. Create a function on a .py file to train each model on the dictionary and visualize it.
 
 8. Improve cleaning process, giving a weight to different values on the cut Series. 
 
