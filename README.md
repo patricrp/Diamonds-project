@@ -14,5 +14,13 @@ Create different machine learning models to study Machine Learning Supervised Re
 
 3. Training the model with different estimators, max and min depth. Minimum RMSE was with 86 estimators, 21 max depth and 3 min depth.
 
-4. Including Normalized and StandardScaler to train again RandomForest. Something was wrong. Score was up to 5455 :(. I need to inverse the DataFrame but 
+4. Including Normalized and StandardScaler to train again RandomForest. Something was wrong. Score was up to 5455 :(. I need to inverse the DataFrame but I couldn't.
+
+5. Test different models and generate different csv's. 
+
+6. Create new Jupyter Notebook Machine Learning - Training Models where I created a dictionary with all best models. 
+
+7. Create a function to train each model on the dictionary and visualize it.
+
+8. Improve cleaning process, giving a weight to different values on the cut Series. 
 
